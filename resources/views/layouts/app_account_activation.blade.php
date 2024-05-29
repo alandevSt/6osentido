@@ -59,7 +59,7 @@
                 <div class="col-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="#">
-                            <img src="{{ url('img/logo-demostracion.png') }}" width="175" alt="">
+                            <img src="{{ url('img/logo-activacion.png') }}" width="145" alt="">
                           </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>

@@ -54,13 +54,23 @@
               </div>
             </div>
           </div>
-          <div class="form-group col-md-6 pr-0 pl-0">
-            <label for="sintomas">Síntomas *</label>
-            <div class="input-icon sintoma">
-              <i class="fas fa-notes-medical"></i>
-                  <input name='tags' placeholder='' id="tags-input">
+          <div class="form-row">
+            <div class="form-group col-md-6 pr-0 pl-0">
+              <label for="sintomas">Síntomas *</label>
+              <div class="input-icon sintoma">
+                <i class="fas fa-notes-medical"></i>
+                    <input name='tags' placeholder='' id="tags-input">
+              </div>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="idiomaPrincipal">Ciudad *</label>
+              <div class="input-icon">
+                <i class="fas fa-flag"></i>
+                <input type="text" class="form-control" id="idiomaPrincipal" placeholder="Escribe donde vives">
+              </div>
             </div>
           </div>
+          
           <div class="text-right" style="    margin-top: 2rem;
     border-top: 1px solid #C199E0;
     padding-top: 2rem;

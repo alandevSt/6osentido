@@ -34,16 +34,16 @@
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                               <li class="nav-item {{ (Request::path() == 'booking-introduction') ? 'active' : '' }}">
-                                <a class="nav-link" href="{{ route('booking-introduction') }}">Elige la fecha y hora</a>
+                                <a class="nav-link">Elige la fecha y hora</a>
                               </li>
                               <li class="nav-item {{ (Request::path() == 'register-account-introduction') ? 'active' : '' }}">
-                                <a class="nav-link" href="{{ route('register-account-introduction') }}">Crear cuenta</a>
+                                <a class="nav-link">Crear cuenta</a>
                               </li>
                               <li class="nav-item {{ (Request::path() == 'preferences-introduction') ? 'active' : '' }}">
-                                <a class="nav-link" href="{{ route('preferences-introduction') }}">Preferencias</a>
+                                <a class="nav-link">Preferencias</a>
                               </li>
                               <li class="nav-item {{ (Request::path() == 'scheduled-session-introduction') ? 'active' : '' }}">
-                                <a class="nav-link" href="{{ route('scheduled-session-introduction') }}">Sesión agendada</a>
+                                <a class="nav-link">Sesión agendada</a>
                               </li>
                             </ul>
                         </div>

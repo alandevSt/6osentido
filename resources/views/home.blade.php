@@ -10,7 +10,7 @@
           <h1 style="color: #fff">la Luz <br><span style="color: #513369;">te regula</span></h1>
           <p s>emociones y pensamientos en segundos.</p>
           <div>
-            <a href="" class="btn btn-dark mb-4" style="background: #FFB646;">
+            <a href="{{ route('booking-introduction') }}" class="btn btn-dark mb-4" style="background: #FFB646;">
               Comienza con tu <b>Demostración</b>
               <p class="mb-0">Siente otra dimensión por 15 minutos (gratis)</p>
               <i class="ml-4 fa-solid fa-arrow-up"></i>
